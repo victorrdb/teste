@@ -1,0 +1,2405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epo:EPOTaskAssignments id="1" xmlns:epo="mcafee-epo-task" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EPOTaskVerInfo id="2" vermjr="5" vermin="10" verrel="0" verbld="0"/>
+  <EPOTaskObjectInstance id="3" name="Atualização Completa" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Update" description="" taskobjectflag="256">
+    <Section name="General">
+      <Setting name="TaskType" value="Update"/>
+    </Section>
+    <Section name="InetManager">
+      <Setting name="EnabledSites" value=""/>
+      <Setting name="EnabledSitesNum" value="0"/>
+      <Setting name="RegenerateCacheEnabled" value="0"/>
+      <Setting name="szRegenerateCacheTimoutMins" value="0"/>
+    </Section>
+    <Section name="SelectedUpdates">
+      <Setting name="NumOfUpdates" value="0"/>
+      <Setting name="UpdateAll" value="1"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="bShowUI" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="4" name="Atualização Simples" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Update" description="" taskobjectflag="256">
+    <Section name="General">
+      <Setting name="TaskType" value="Update"/>
+    </Section>
+    <Section name="InetManager">
+      <Setting name="EnabledSites" value=""/>
+      <Setting name="EnabledSitesNum" value="0"/>
+      <Setting name="RegenerateCacheEnabled" value="0"/>
+      <Setting name="szRegenerateCacheTimoutMins" value="0"/>
+    </Section>
+    <Section name="SelectedUpdates">
+      <Setting name="NumOfUpdates" value="5"/>
+      <Setting name="Update_1" value="BOCVSE__1000"/>
+      <Setting name="Update_2" value="VSCANDAT1000"/>
+      <Setting name="Update_3" value="ENDPCNT_1000"/>
+      <Setting name="Update_4" value="AMCORDAT2000"/>
+      <Setting name="Update_5" value="EXTRADAT1000"/>
+      <Setting name="UpdateAll" value="0"/>
+    </Section>
+    <Section name="SelectedUpdates\AMCORDAT2000">
+      <Setting name="Update" value="1"/>
+    </Section>
+    <Section name="SelectedUpdates\BOCVSE__1000">
+      <Setting name="Update" value="1"/>
+    </Section>
+    <Section name="SelectedUpdates\ENDPCNT_1000">
+      <Setting name="Update" value="1"/>
+    </Section>
+    <Section name="SelectedUpdates\EXTRADAT1000">
+      <Setting name="Update" value="1"/>
+    </Section>
+    <Section name="SelectedUpdates\VSCANDAT1000">
+      <Setting name="Update" value="1"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="bShowUI" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="5" name="Atualização Startup" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Update" description="" taskobjectflag="0">
+    <Section name="General">
+      <Setting name="TaskType" value="Update"/>
+    </Section>
+    <Section name="InetManager">
+      <Setting name="EnabledSites" value=""/>
+      <Setting name="EnabledSitesNum" value="0"/>
+      <Setting name="RegenerateCacheEnabled" value="0"/>
+      <Setting name="szRegenerateCacheTimoutMins" value="0"/>
+    </Section>
+    <Section name="SelectedUpdates">
+      <Setting name="NumOfUpdates" value="5"/>
+      <Setting name="Update_1" value="BOCVSE__1000"/>
+      <Setting name="Update_2" value="VSCANDAT1000"/>
+      <Setting name="Update_3" value="ENDPCNT_1000"/>
+      <Setting name="Update_4" value="AMCORDAT2000"/>
+      <Setting name="Update_5" value="EXTRADAT1000"/>
+      <Setting name="UpdateAll" value="0"/>
+    </Section>
+    <Section name="SelectedUpdates\AMCORDAT2000">
+      <Setting name="Update" value="1"/>
+    </Section>
+    <Section name="SelectedUpdates\BOCVSE__1000">
+      <Setting name="Update" value="1"/>
+    </Section>
+    <Section name="SelectedUpdates\ENDPCNT_1000">
+      <Setting name="Update" value="1"/>
+    </Section>
+    <Section name="SelectedUpdates\EXTRADAT1000">
+      <Setting name="Update" value="1"/>
+    </Section>
+    <Section name="SelectedUpdates\VSCANDAT1000">
+      <Setting name="Update" value="1"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="bShowUI" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="6" name="Wakeup Agent" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Wakeup" description="" taskobjectflag="0">
+    <Section name="General">
+      <Setting name="ASCIFlags" value="0"/>
+      <Setting name="bCustomASCISettings" value="0"/>
+      <Setting name="TaskType" value="wakeup"/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="7" name="InstalaçãoAV 8.8 P4" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Deployment" description="" taskobjectflag="0">
+    <Section name="AutoUpdateOption">
+      <Setting name="AutoUpdateEnabled" value="0"/>
+    </Section>
+    <Section name="DeploymentOptions">
+      <Setting name="DummyPolicy" value="0"/>
+      <Setting name="UpdateAfterDeployment" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="TaskType" value="Deployment"/>
+    </Section>
+    <Section name="Install">
+      <Setting name="Install_1" value="VIRUSCAN8800"/>
+      <Setting name="NumInstalls" value="1"/>
+    </Section>
+    <Section name="Install\VIRUSCAN8800">
+      <Setting name="BuildVersion" value="8.8.01804"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="SchedulerExtraData">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Settings">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Uninstall">
+      <Setting name="NumUninstalls" value="0"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="8" name="Instalação EEFF" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Deployment" description="" taskobjectflag="0">
+    <Section name="DeploymentOptions">
+      <Setting name="DummyPolicy" value="0"/>
+      <Setting name="UpdateAfterDeployment" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="TaskType" value="Deployment"/>
+    </Section>
+    <Section name="Install">
+      <Setting name="Install_1" value="EEFF____4000"/>
+      <Setting name="NumInstalls" value="1"/>
+    </Section>
+    <Section name="Install\EEFF____4000">
+      <Setting name="BuildVersion" value="4.2.0184"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="SchedulerExtraData">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Settings">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Uninstall">
+      <Setting name="NumUninstalls" value="0"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="9" name="Remove DLP" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Deployment" description="" taskobjectflag="0">
+    <Section name="AutoUpdateOption">
+      <Setting name="AutoUpdateEnabled" value="0"/>
+    </Section>
+    <Section name="DeploymentOptions">
+      <Setting name="DummyPolicy" value="0"/>
+      <Setting name="UpdateAfterDeployment" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="TaskType" value="Deployment"/>
+    </Section>
+    <Section name="Install">
+      <Setting name="NumInstalls" value="0"/>
+    </Section>
+    <Section name="SchedulerExtraData">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Settings">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Uninstall">
+      <Setting name="NumUninstalls" value="1"/>
+      <Setting name="Uninstall_1" value="DLPAGENT11100"/>
+    </Section>
+    <Section name="Uninstall\DLPAGENT10000">
+      <Setting name="BuildVersion" value="11.0.130.242"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0409"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Uninstall\DLPAGENT11100">
+      <Setting name="BuildVersion" value="11.1.0612"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0409"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Uninstall\DLPAGENT9300">
+      <Setting name="BuildVersion" value="9.3.600.32"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0409"/>
+      <Setting name="PackagePathType" value="Previous"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="10" name="Varredura Completa - Servidor 8.8" serverid="DFEPOSSD304" productid="VIRUSCAN8800" typeid="VSC700_Scan_Task" description="" taskobjectflag="256">
+    <Section name="Actions">
+      <Setting name="uAction" value="5"/>
+      <Setting name="uSecAction" value="4"/>
+    </Section>
+    <Section name="Advanced">
+      <Setting name="bDeferScanInFullScreen" value="0"/>
+      <Setting name="bDeferScanOnBattery" value="0"/>
+      <Setting name="bDoHsm" value="0"/>
+      <Setting name="bPermitUserDefer" value="0"/>
+      <Setting name="dwHeuristicNetCheckSensitivity" value="-1"/>
+      <Setting name="dwMacroHeuristicsLevel" value="1"/>
+      <Setting name="dwProgramHeuristicsLevel" value="1"/>
+      <Setting name="nPriority" value="10"/>
+      <Setting name="uDeferTime" value="1"/>
+    </Section>
+    <Section name="Exclusions">
+      <Setting name="bAppendExclusions" value="0"/>
+      <Setting name="dwExclusionCount" value="45"/>
+      <Setting name="ExcludedItem_0" value="3|7|B:\TRATASPAM\"/>
+      <Setting name="ExcludedItem_1" value="3|7|C:\TRATASPAM\"/>
+      <Setting name="ExcludedItem_10" value="3|3|ChannelService.exe"/>
+      <Setting name="ExcludedItem_11" value="3|3|ClsAgent.exe"/>
+      <Setting name="ExcludedItem_12" value="3|3|ComplianceService.exe"/>
+      <Setting name="ExcludedItem_13" value="3|3|DataMCUSvc.exe"/>
+      <Setting name="ExcludedItem_14" value="3|3|DataProxy.exe"/>
+      <Setting name="ExcludedItem_15" value="3|3|FileTransferAgent.exe"/>
+      <Setting name="ExcludedItem_16" value="3|3|IMMCUSvc.exe"/>
+      <Setting name="ExcludedItem_17" value="3|3|LysSvc.exe"/>
+      <Setting name="ExcludedItem_18" value="3|3|MasterReplicatorAgent.exe"/>
+      <Setting name="ExcludedItem_19" value="3|3|MediaRelaySvc.exe"/>
+      <Setting name="ExcludedItem_2" value="3|7|C:\INETPUB\MAILROOT\QUEUE\"/>
+      <Setting name="ExcludedItem_20" value="3|3|MediationServerSvc.exe"/>
+      <Setting name="ExcludedItem_21" value="3|3|MRASSvc.exe"/>
+      <Setting name="ExcludedItem_22" value="3|3|OcsAppServerHost.exe"/>
+      <Setting name="ExcludedItem_23" value="3|3|ReplicaReplicatorAgent.exe"/>
+      <Setting name="ExcludedItem_24" value="3|3|ReplicationApp.exe"/>
+      <Setting name="ExcludedItem_25" value="3|3|RtcHost.exe"/>
+      <Setting name="ExcludedItem_26" value="3|3|RTCSrv.exe"/>
+      <Setting name="ExcludedItem_27" value="3|3|XmppProxy.exe"/>
+      <Setting name="ExcludedItem_28" value="3|3|XmppTGW.exe"/>
+      <Setting name="ExcludedItem_29" value="3|3|Fabric.exe"/>
+      <Setting name="ExcludedItem_3" value="3|7|E:\rmstorage\grv"/>
+      <Setting name="ExcludedItem_30" value="3|3|FabricDCA.exe"/>
+      <Setting name="ExcludedItem_31" value="3|3|FabricHost.exe"/>
+      <Setting name="ExcludedItem_32" value="3|3|C:\Windows\system32\inetsrv\w3wp.exe"/>
+      <Setting name="ExcludedItem_33" value="3|3|C:\Windows\SysWOW64\inetsrv\w3wp.exe"/>
+      <Setting name="ExcludedItem_34" value="3|3|C:\Program Files\Microsoft SQL Server\MSSQL12.SQL7562PRD001\MSSQL\Binn\SQLServr.exe"/>
+      <Setting name="ExcludedItem_35" value="3|3|C:\Program Files\Microsoft SQL Server\MSRS12.SQL7562PRD001\Reporting Services\ReportServer\bin\ReportingServicesService.exe"/>
+      <Setting name="ExcludedItem_36" value="3|3|E:\CSDATA\MSSQL12.LYNCLOCAL\MSSQL\Binn\SQLServr.exe"/>
+      <Setting name="ExcludedItem_37" value="3|3|E:\CSDATA\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe"/>
+      <Setting name="ExcludedItem_38" value="3|3|C:\System32\LogFiles"/>
+      <Setting name="ExcludedItem_39" value="3|3|C:\SysWow64\LogFiles"/>
+      <Setting name="ExcludedItem_4" value="4|3|grv"/>
+      <Setting name="ExcludedItem_40" value="3|3|C:\Microsoft.NET\assembly\GAC_MSIL"/>
+      <Setting name="ExcludedItem_41" value="3|7|E:\Program Files\Skype for Business Server 2015"/>
+      <Setting name="ExcludedItem_42" value="3|3|C:\Program Files\Common Files\Skype for Business Server 2015"/>
+      <Setting name="ExcludedItem_43" value="3|3|E:\RtcReplicaRoot"/>
+      <Setting name="ExcludedItem_44" value="3|7|*:\Program Files\Microsoft SQL Server"/>
+      <Setting name="ExcludedItem_5" value="3|3|*:\rmstorage\grv"/>
+      <Setting name="ExcludedItem_6" value="3|7|ABServer.exe"/>
+      <Setting name="ExcludedItem_7" value="3|3|AcpMcuSvc.exe"/>
+      <Setting name="ExcludedItem_8" value="3|3|ASMCUSvc.exe"/>
+      <Setting name="ExcludedItem_9" value="3|3|AVMCUSvc.exe"/>
+    </Section>
+    <Section name="General">
+      <Setting name="bAlwaysExit" value="1"/>
+      <Setting name="bAutoExit" value="1"/>
+      <Setting name="bAutoStart" value="1"/>
+      <Setting name="bSkipSplash" value="1"/>
+      <Setting name="szTaskName" value="New Scan Task"/>
+      <Setting name="TaskType" value="SCAN"/>
+      <Setting name="UIType" value="2"/>
+      <Setting name="wTaskAttrib" value="3"/>
+    </Section>
+    <Section name="Reports">
+      <Setting name="Alert_ExcludeCookies" value="1"/>
+      <Setting name="bLimitSize" value="1"/>
+      <Setting name="bLogScanFailure" value="1"/>
+      <Setting name="bLogSettings" value="0"/>
+      <Setting name="bLogSummary" value="1"/>
+      <Setting name="bLogToFile" value="1"/>
+      <Setting name="LogFileFormat" value="1"/>
+      <Setting name="szLogFileName" value="%DEFLOGDIR%\OnDemandScanLog.txt"/>
+      <Setting name="uKilobytes" value="10240"/>
+    </Section>
+    <Section name="ScanItems">
+      <Setting name="dwScanItemCount" value="4"/>
+      <Setting name="szScanItem0" value="SpecialScanForRootkits"/>
+      <Setting name="szScanItem1" value="SpecialMemory"/>
+      <Setting name="szScanItem2" value="LocalDrives"/>
+      <Setting name="szScanItem3" value="SpecialRegistrySpyware"/>
+    </Section>
+    <Section name="Spyware">
+      <Setting name="ApplyNVP" value="1"/>
+      <Setting name="uAction_Program" value="5"/>
+      <Setting name="uSecAction_Program" value="4"/>
+    </Section>
+    <Section name="VSE7_SchedulerSection">
+      <Setting name="bDisplayTask" value="0"/>
+      <Setting name="bRunOnServer" value="1"/>
+      <Setting name="bRunOnWrkstn" value="0"/>
+      <Setting name="VSE7_DomainName" value=""/>
+      <Setting name="VSE7_Password" value=""/>
+      <Setting name="VSE7_PasswordEx" value=""/>
+      <Setting name="VSE7_UserName" value=""/>
+    </Section>
+    <Section name="What">
+      <Setting name="bScanAllFiles" value="1"/>
+      <Setting name="bScanAllOle" value="0"/>
+      <Setting name="bScanDefaultFiles" value="0"/>
+      <Setting name="ScanArchives" value="1"/>
+      <Setting name="ScanMime" value="1"/>
+      <Setting name="szDefProgExts" value=""/>
+      <Setting name="szProgExts" value=""/>
+    </Section>
+    <Section name="Where">
+      <Setting name="bScanSubDirs" value="1"/>
+      <Setting name="bSkipBootScan" value="0"/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="11" name="Varredura Completa - Cliente 8.8 (Emergencial)" serverid="DFEPOSSD304" productid="VIRUSCAN8800" typeid="VSC700_Scan_Task" description="" taskobjectflag="0">
+    <Section name="Actions">
+      <Setting name="uAction" value="5"/>
+      <Setting name="uSecAction" value="4"/>
+    </Section>
+    <Section name="Advanced">
+      <Setting name="bDeferScanInFullScreen" value="0"/>
+      <Setting name="bDeferScanOnBattery" value="0"/>
+      <Setting name="bDoHsm" value="0"/>
+      <Setting name="bPermitUserDefer" value="0"/>
+      <Setting name="dwHeuristicNetCheckSensitivity" value="-1"/>
+      <Setting name="dwMacroHeuristicsLevel" value="1"/>
+      <Setting name="dwProgramHeuristicsLevel" value="1"/>
+      <Setting name="nPriority" value="100"/>
+      <Setting name="uDeferTime" value="1"/>
+    </Section>
+    <Section name="Exclusions">
+      <Setting name="bAppendExclusions" value="0"/>
+      <Setting name="dwExclusionCount" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="bAlwaysExit" value="1"/>
+      <Setting name="bAutoExit" value="1"/>
+      <Setting name="bAutoStart" value="1"/>
+      <Setting name="bSkipSplash" value="1"/>
+      <Setting name="szTaskName" value="New Scan Task"/>
+      <Setting name="TaskType" value="SCAN"/>
+      <Setting name="UIType" value="2"/>
+      <Setting name="wTaskAttrib" value="3"/>
+    </Section>
+    <Section name="Reports">
+      <Setting name="Alert_ExcludeCookies" value="1"/>
+      <Setting name="bLimitSize" value="1"/>
+      <Setting name="bLogScanFailure" value="1"/>
+      <Setting name="bLogSettings" value="0"/>
+      <Setting name="bLogSummary" value="1"/>
+      <Setting name="bLogToFile" value="1"/>
+      <Setting name="LogFileFormat" value="1"/>
+      <Setting name="szLogFileName" value="%DEFLOGDIR%\OnDemandScanLog.txt"/>
+      <Setting name="uKilobytes" value="10240"/>
+    </Section>
+    <Section name="ScanItems">
+      <Setting name="dwScanItemCount" value="4"/>
+      <Setting name="szScanItem0" value="SpecialScanForRootkits"/>
+      <Setting name="szScanItem1" value="SpecialMemory"/>
+      <Setting name="szScanItem2" value="LocalDrives"/>
+      <Setting name="szScanItem3" value="SpecialRegistrySpyware"/>
+    </Section>
+    <Section name="Spyware">
+      <Setting name="ApplyNVP" value="1"/>
+      <Setting name="uAction_Program" value="5"/>
+      <Setting name="uSecAction_Program" value="4"/>
+    </Section>
+    <Section name="VSE7_SchedulerSection">
+      <Setting name="bDisplayTask" value="0"/>
+      <Setting name="bRunOnServer" value="0"/>
+      <Setting name="bRunOnWrkstn" value="1"/>
+      <Setting name="VSE7_DomainName" value=""/>
+      <Setting name="VSE7_Password" value=""/>
+      <Setting name="VSE7_PasswordEx" value=""/>
+      <Setting name="VSE7_UserName" value=""/>
+    </Section>
+    <Section name="What">
+      <Setting name="bScanAllFiles" value="1"/>
+      <Setting name="bScanAllOle" value="0"/>
+      <Setting name="bScanDefaultFiles" value="0"/>
+      <Setting name="ScanArchives" value="1"/>
+      <Setting name="ScanMime" value="1"/>
+      <Setting name="szDefProgExts" value=""/>
+      <Setting name="szProgExts" value=""/>
+    </Section>
+    <Section name="Where">
+      <Setting name="bScanSubDirs" value="1"/>
+      <Setting name="bSkipBootScan" value="0"/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="12" name="Varredura Completa - Servidor 8.8 (Emergencial)" serverid="DFEPOSSD304" productid="VIRUSCAN8800" typeid="VSC700_Scan_Task" description="" taskobjectflag="0">
+    <Section name="Actions">
+      <Setting name="uAction" value="5"/>
+      <Setting name="uSecAction" value="4"/>
+    </Section>
+    <Section name="Advanced">
+      <Setting name="bDeferScanInFullScreen" value="0"/>
+      <Setting name="bDeferScanOnBattery" value="0"/>
+      <Setting name="bDoHsm" value="0"/>
+      <Setting name="bPermitUserDefer" value="0"/>
+      <Setting name="dwHeuristicNetCheckSensitivity" value="-1"/>
+      <Setting name="dwMacroHeuristicsLevel" value="1"/>
+      <Setting name="dwProgramHeuristicsLevel" value="1"/>
+      <Setting name="nPriority" value="10"/>
+      <Setting name="uDeferTime" value="1"/>
+    </Section>
+    <Section name="Exclusions">
+      <Setting name="bAppendExclusions" value="0"/>
+      <Setting name="dwExclusionCount" value="6"/>
+      <Setting name="ExcludedItem_0" value="3|7|B:\TRATASPAM\"/>
+      <Setting name="ExcludedItem_1" value="3|7|C:\TRATASPAM\"/>
+      <Setting name="ExcludedItem_2" value="3|7|C:\INETPUB\MAILROOT\QUEUE\"/>
+      <Setting name="ExcludedItem_3" value="3|7|E:\rmstorage\grv"/>
+      <Setting name="ExcludedItem_4" value="4|3|grv"/>
+      <Setting name="ExcludedItem_5" value="3|3|*:\rmstorage\grv"/>
+    </Section>
+    <Section name="General">
+      <Setting name="bAlwaysExit" value="1"/>
+      <Setting name="bAutoExit" value="1"/>
+      <Setting name="bAutoStart" value="1"/>
+      <Setting name="bSkipSplash" value="1"/>
+      <Setting name="szTaskName" value="New Scan Task"/>
+      <Setting name="TaskType" value="SCAN"/>
+      <Setting name="UIType" value="2"/>
+      <Setting name="wTaskAttrib" value="3"/>
+    </Section>
+    <Section name="Reports">
+      <Setting name="Alert_ExcludeCookies" value="1"/>
+      <Setting name="bLimitSize" value="1"/>
+      <Setting name="bLogScanFailure" value="1"/>
+      <Setting name="bLogSettings" value="0"/>
+      <Setting name="bLogSummary" value="1"/>
+      <Setting name="bLogToFile" value="1"/>
+      <Setting name="LogFileFormat" value="1"/>
+      <Setting name="szLogFileName" value="%DEFLOGDIR%\OnDemandScanLog.txt"/>
+      <Setting name="uKilobytes" value="10240"/>
+    </Section>
+    <Section name="ScanItems">
+      <Setting name="dwScanItemCount" value="4"/>
+      <Setting name="szScanItem0" value="SpecialScanForRootkits"/>
+      <Setting name="szScanItem1" value="SpecialMemory"/>
+      <Setting name="szScanItem2" value="LocalDrives"/>
+      <Setting name="szScanItem3" value="SpecialRegistrySpyware"/>
+    </Section>
+    <Section name="Spyware">
+      <Setting name="ApplyNVP" value="1"/>
+      <Setting name="uAction_Program" value="5"/>
+      <Setting name="uSecAction_Program" value="4"/>
+    </Section>
+    <Section name="VSE7_SchedulerSection">
+      <Setting name="bDisplayTask" value="0"/>
+      <Setting name="bRunOnServer" value="1"/>
+      <Setting name="bRunOnWrkstn" value="0"/>
+      <Setting name="VSE7_DomainName" value=""/>
+      <Setting name="VSE7_Password" value=""/>
+      <Setting name="VSE7_PasswordEx" value=""/>
+      <Setting name="VSE7_UserName" value=""/>
+    </Section>
+    <Section name="What">
+      <Setting name="bScanAllFiles" value="1"/>
+      <Setting name="bScanAllOle" value="0"/>
+      <Setting name="bScanDefaultFiles" value="0"/>
+      <Setting name="ScanArchives" value="1"/>
+      <Setting name="ScanMime" value="1"/>
+      <Setting name="szDefProgExts" value=""/>
+      <Setting name="szProgExts" value=""/>
+    </Section>
+    <Section name="Where">
+      <Setting name="bScanSubDirs" value="1"/>
+      <Setting name="bSkipBootScan" value="0"/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="13" name="Varredura Completa - Cliente 8.8 (Emergencial) 2" serverid="DFEPOSSD304" productid="VIRUSCAN8800" typeid="VSC700_Scan_Task" description="" taskobjectflag="0">
+    <Section name="Actions">
+      <Setting name="uAction" value="5"/>
+      <Setting name="uSecAction" value="4"/>
+    </Section>
+    <Section name="Advanced">
+      <Setting name="bDeferScanInFullScreen" value="0"/>
+      <Setting name="bDeferScanOnBattery" value="0"/>
+      <Setting name="bDoHsm" value="0"/>
+      <Setting name="bPermitUserDefer" value="0"/>
+      <Setting name="dwHeuristicNetCheckSensitivity" value="-1"/>
+      <Setting name="dwMacroHeuristicsLevel" value="1"/>
+      <Setting name="dwProgramHeuristicsLevel" value="1"/>
+      <Setting name="nPriority" value="100"/>
+      <Setting name="uDeferTime" value="1"/>
+    </Section>
+    <Section name="Exclusions">
+      <Setting name="bAppendExclusions" value="0"/>
+      <Setting name="dwExclusionCount" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="bAlwaysExit" value="1"/>
+      <Setting name="bAutoExit" value="1"/>
+      <Setting name="bAutoStart" value="1"/>
+      <Setting name="bSkipSplash" value="1"/>
+      <Setting name="szTaskName" value="New Scan Task"/>
+      <Setting name="TaskType" value="SCAN"/>
+      <Setting name="UIType" value="2"/>
+      <Setting name="wTaskAttrib" value="3"/>
+    </Section>
+    <Section name="Reports">
+      <Setting name="Alert_ExcludeCookies" value="1"/>
+      <Setting name="bLimitSize" value="1"/>
+      <Setting name="bLogScanFailure" value="1"/>
+      <Setting name="bLogSettings" value="0"/>
+      <Setting name="bLogSummary" value="1"/>
+      <Setting name="bLogToFile" value="1"/>
+      <Setting name="LogFileFormat" value="1"/>
+      <Setting name="szLogFileName" value="%DEFLOGDIR%\OnDemandScanLog.txt"/>
+      <Setting name="uKilobytes" value="10240"/>
+    </Section>
+    <Section name="ScanItems">
+      <Setting name="dwScanItemCount" value="4"/>
+      <Setting name="szScanItem0" value="SpecialScanForRootkits"/>
+      <Setting name="szScanItem1" value="SpecialMemory"/>
+      <Setting name="szScanItem2" value="LocalDrives"/>
+      <Setting name="szScanItem3" value="SpecialRegistrySpyware"/>
+    </Section>
+    <Section name="Spyware">
+      <Setting name="ApplyNVP" value="1"/>
+      <Setting name="uAction_Program" value="5"/>
+      <Setting name="uSecAction_Program" value="4"/>
+    </Section>
+    <Section name="VSE7_SchedulerSection">
+      <Setting name="bDisplayTask" value="0"/>
+      <Setting name="bRunOnServer" value="0"/>
+      <Setting name="bRunOnWrkstn" value="1"/>
+      <Setting name="VSE7_DomainName" value=""/>
+      <Setting name="VSE7_Password" value=""/>
+      <Setting name="VSE7_PasswordEx" value=""/>
+      <Setting name="VSE7_UserName" value=""/>
+    </Section>
+    <Section name="What">
+      <Setting name="bScanAllFiles" value="1"/>
+      <Setting name="bScanAllOle" value="0"/>
+      <Setting name="bScanDefaultFiles" value="0"/>
+      <Setting name="ScanArchives" value="1"/>
+      <Setting name="ScanMime" value="1"/>
+      <Setting name="szDefProgExts" value=""/>
+      <Setting name="szProgExts" value=""/>
+    </Section>
+    <Section name="Where">
+      <Setting name="bScanSubDirs" value="1"/>
+      <Setting name="bSkipBootScan" value="0"/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="14" name="INSTALL ENS - 10.7" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Deployment" description="" taskobjectflag="0">
+    <Section name="AutoUpdateOption">
+      <Setting name="AutoUpdateEnabled" value="0"/>
+    </Section>
+    <Section name="DeploymentOptions">
+      <Setting name="DummyPolicy" value="0"/>
+      <Setting name="UpdateAfterDeployment" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="TaskType" value="Deployment"/>
+    </Section>
+    <Section name="Install">
+      <Setting name="Install_1" value="ENDP_GS_1070"/>
+      <Setting name="Install_2" value="ENDP_AM_1070"/>
+      <Setting name="Install_3" value="ENDPATP_1070"/>
+      <Setting name="Install_4" value="VIRUSCAN8800"/>
+      <Setting name="NumInstalls" value="3"/>
+    </Section>
+    <Section name="Install\ENDP_AM_1050">
+      <Setting name="BuildVersion" value="10.5.03264"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Install\ENDP_AM_1060">
+      <Setting name="BuildVersion" value="10.6.11666"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Install\ENDP_AM_1070">
+      <Setting name="BuildVersion" value="10.7.01751"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Install\ENDP_GS_1050">
+      <Setting name="BuildVersion" value="10.5.03178"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Install\ENDP_GS_1060">
+      <Setting name="BuildVersion" value="10.6.11607"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Install\ENDP_GS_1070">
+      <Setting name="BuildVersion" value="10.7.01733"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Install\ENDPATP_1060">
+      <Setting name="BuildVersion" value="10.6.11421"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Install\ENDPATP_1070">
+      <Setting name="BuildVersion" value="10.7.01929"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Install\VIRUSCAN8800">
+      <Setting name="BuildVersion" value="8.8.01804"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="SchedulerExtraData">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Settings">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Uninstall">
+      <Setting name="NumUninstalls" value="0"/>
+      <Setting name="Uninstall_1" value="VIRUSCAN8800"/>
+    </Section>
+    <Section name="Uninstall\VIRUSCAN8800">
+      <Setting name="BuildVersion" value="8.8.01247"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Previous"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="15" name="REMOVE ENS" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Deployment" description="" taskobjectflag="0">
+    <Section name="AutoUpdateOption">
+      <Setting name="AutoUpdateEnabled" value="0"/>
+    </Section>
+    <Section name="DeploymentOptions">
+      <Setting name="DummyPolicy" value="0"/>
+      <Setting name="UpdateAfterDeployment" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="TaskType" value="Deployment"/>
+    </Section>
+    <Section name="Install">
+      <Setting name="NumInstalls" value="0"/>
+    </Section>
+    <Section name="SchedulerExtraData">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Settings">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Uninstall">
+      <Setting name="NumUninstalls" value="2"/>
+      <Setting name="Uninstall_1" value="ENDPATP_1060"/>
+      <Setting name="Uninstall_2" value="ENDP_AM_1060"/>
+    </Section>
+    <Section name="Uninstall\ENDP_AM_1050">
+      <Setting name="BuildVersion" value="10.5.03264"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Uninstall\ENDP_AM_1060">
+      <Setting name="BuildVersion" value="10.6.11128"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Uninstall\ENDP_GS_1050">
+      <Setting name="BuildVersion" value="10.5.03178"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Uninstall\ENDPATP_1060">
+      <Setting name="BuildVersion" value="10.6.11064"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="16" name="InstalaçãoAV 8.8 W8" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Deployment" description="" taskobjectflag="0">
+    <Section name="AutoUpdateOption">
+      <Setting name="AutoUpdateEnabled" value="0"/>
+    </Section>
+    <Section name="DeploymentOptions">
+      <Setting name="DummyPolicy" value="0"/>
+      <Setting name="UpdateAfterDeployment" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="TaskType" value="Deployment"/>
+    </Section>
+    <Section name="Install">
+      <Setting name="Install_1" value="VIRUSCAN8800"/>
+      <Setting name="NumInstalls" value="1"/>
+    </Section>
+    <Section name="Install\VIRUSCAN8800">
+      <Setting name="BuildVersion" value="8.8.01804"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="SchedulerExtraData">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Settings">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Uninstall">
+      <Setting name="NumUninstalls" value="0"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="17" name="RemoveVSE" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Deployment" description="" taskobjectflag="0">
+    <Section name="AutoUpdateOption">
+      <Setting name="AutoUpdateEnabled" value="0"/>
+    </Section>
+    <Section name="DeploymentOptions">
+      <Setting name="DummyPolicy" value="0"/>
+      <Setting name="UpdateAfterDeployment" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="TaskType" value="Deployment"/>
+    </Section>
+    <Section name="Install">
+      <Setting name="NumInstalls" value="0"/>
+    </Section>
+    <Section name="SchedulerExtraData">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Settings">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Uninstall">
+      <Setting name="NumUninstalls" value="1"/>
+      <Setting name="Uninstall_1" value="VIRUSCAN8800"/>
+    </Section>
+    <Section name="Uninstall\VIRUSCAN8800">
+      <Setting name="BuildVersion" value="8.8.01804"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="18" name="Install_DLP_11_4" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Deployment" description="" taskobjectflag="0">
+    <Section name="AutoUpdateOption">
+      <Setting name="AutoUpdateEnabled" value="0"/>
+    </Section>
+    <Section name="DeploymentOptions">
+      <Setting name="DummyPolicy" value="0"/>
+      <Setting name="UpdateAfterDeployment" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="TaskType" value="Deployment"/>
+    </Section>
+    <Section name="Install">
+      <Setting name="Install_1" value="DLPAGENT11400"/>
+      <Setting name="NumInstalls" value="1"/>
+    </Section>
+    <Section name="Install\DLPAGENT11100">
+      <Setting name="BuildVersion" value="11.1.0612"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0409"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Install\DLPAGENT11200">
+      <Setting name="BuildVersion" value="11.2.0142"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0409"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Install\DLPAGENT11400">
+      <Setting name="BuildVersion" value="11.4.0452"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0409"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="SchedulerExtraData">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Settings">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Uninstall">
+      <Setting name="NumUninstalls" value="0"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="19" name="Varredura Completa - Servidor ENS" serverid="DFEPOSSD304" productid="ENDP_AM_1000" typeid="EAM_Scan_Task" description="" taskobjectflag="0">
+    <Section name="Account">
+      <Setting name="szDomainName" value="CORPCAIXA"/>
+      <Setting name="szPassword" value=""/>
+      <Setting name="szUserName" value="s756230"/>
+    </Section>
+    <Section name="Exclusions">
+      <Setting name="bOverwriteExclusions" value="0"/>
+      <Setting name="dwExclusionCount" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="bAlwaysExit" value="1"/>
+      <Setting name="bAutoExit" value="1"/>
+      <Setting name="bAutoStart" value="1"/>
+      <Setting name="bEnableSplash" value="0"/>
+      <Setting name="szTaskName" value="New Scan Task"/>
+      <Setting name="TaskType" value="SCAN"/>
+      <Setting name="UIType" value="2"/>
+      <Setting name="wTaskAttrib" value="3"/>
+    </Section>
+    <Section name="GTI">
+      <Setting name="GTISensitivityLevel" value="3"/>
+    </Section>
+    <Section name="Performance">
+      <Setting name="bDeferScanInFullScreen" value="0"/>
+      <Setting name="bDeferScanOnBattery" value="1"/>
+      <Setting name="bEnforceMaxODSThreads" value="1"/>
+      <Setting name="bEnforceMaxScanTime" value="1"/>
+      <Setting name="bInteractiveUserIsIdle" value="1"/>
+      <Setting name="bPermitUserDefer" value="0"/>
+      <Setting name="bUseCache" value="1"/>
+      <Setting name="SystemUtilization" value="3"/>
+      <Setting name="szDeferMessage" value="McAfee Endpoint Security is about to scan your system."/>
+      <Setting name="uDeferTime" value="23"/>
+      <Setting name="uMessageDuration" value="45"/>
+      <Setting name="uScannerMaxODSThreads" value="5"/>
+      <Setting name="uScannerThreadTimeOut" value="45"/>
+    </Section>
+    <Section name="Remediation">
+      <Setting name="uAction" value="1"/>
+      <Setting name="uAction_Program" value="1"/>
+      <Setting name="uSecAction" value="2"/>
+      <Setting name="uSecAction_Program" value="2"/>
+    </Section>
+    <Section name="ScanOptions">
+      <Setting name="bDetectUnwantedPrograms" value="1"/>
+      <Setting name="bScanArchives" value="1"/>
+      <Setting name="bScanBootSectors" value="1"/>
+      <Setting name="bScanFilesMigratedToStorage" value="0"/>
+      <Setting name="bScanMime" value="0"/>
+      <Setting name="bScanSubDirs" value="1"/>
+      <Setting name="bUnknownMacroHeuristics" value="1"/>
+      <Setting name="bUnknownProgramHeuristics" value="1"/>
+      <Setting name="dwScanItemCount" value="4"/>
+      <Setting name="ExtensionMode" value="1"/>
+      <Setting name="szProgExts" value=""/>
+      <Setting name="szScanItem0" value="SpecialScanForRootkits"/>
+      <Setting name="szScanItem1" value="SpecialMemory"/>
+      <Setting name="szScanItem2" value="LocalDrives"/>
+      <Setting name="szScanItem3" value="SpecialRegistry"/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="20" name="Instal_ENS_Imediato" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Deployment" description="" taskobjectflag="0">
+    <Section name="AutoUpdateOption">
+      <Setting name="AutoUpdateEnabled" value="0"/>
+    </Section>
+    <Section name="DeploymentOptions">
+      <Setting name="DummyPolicy" value="0"/>
+      <Setting name="UpdateAfterDeployment" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="TaskType" value="Deployment"/>
+    </Section>
+    <Section name="Install">
+      <Setting name="Install_1" value="ENDP_GS_1060"/>
+      <Setting name="Install_2" value="ENDP_AM_1060"/>
+      <Setting name="Install_3" value="ENDPATP_1060"/>
+      <Setting name="NumInstalls" value="3"/>
+    </Section>
+    <Section name="Install\ENDP_AM_1060">
+      <Setting name="BuildVersion" value="10.6.11128"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Install\ENDP_GS_1060">
+      <Setting name="BuildVersion" value="10.6.11068"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="Install\ENDPATP_1060">
+      <Setting name="BuildVersion" value="10.6.11064"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="SchedulerExtraData">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Settings">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Uninstall">
+      <Setting name="NumUninstalls" value="0"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="21" name="Install_DLP_11.2_imediato" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Deployment" description="" taskobjectflag="0">
+    <Section name="AutoUpdateOption">
+      <Setting name="AutoUpdateEnabled" value="0"/>
+    </Section>
+    <Section name="DeploymentOptions">
+      <Setting name="DummyPolicy" value="0"/>
+      <Setting name="UpdateAfterDeployment" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="TaskType" value="Deployment"/>
+    </Section>
+    <Section name="Install">
+      <Setting name="Install_1" value="DLPAGENT11200"/>
+      <Setting name="NumInstalls" value="1"/>
+    </Section>
+    <Section name="Install\DLPAGENT11200">
+      <Setting name="BuildVersion" value="11.2.0142"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0409"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="SchedulerExtraData">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Settings">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Uninstall">
+      <Setting name="NumUninstalls" value="0"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="22" name="INSTALL AGENT 5.6.6" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Deployment" description="" taskobjectflag="0">
+    <Section name="AutoUpdateOption">
+      <Setting name="AutoUpdateEnabled" value="0"/>
+    </Section>
+    <Section name="DeploymentOptions">
+      <Setting name="DummyPolicy" value="0"/>
+      <Setting name="UpdateAfterDeployment" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="TaskType" value="Deployment"/>
+    </Section>
+    <Section name="Install">
+      <Setting name="Install_1" value="EPOAGENT3000"/>
+      <Setting name="NumInstalls" value="1"/>
+    </Section>
+    <Section name="Install\EPOAGENT3000">
+      <Setting name="BuildVersion" value="5.6.6232"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0409"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="SchedulerExtraData">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Settings">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Uninstall">
+      <Setting name="NumUninstalls" value="0"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="23" name="INSTALL KB CERTIFICADO" serverid="DFEPOSSD304" productid="EPOAGENTMETA" typeid="Deployment" description="" taskobjectflag="0">
+    <Section name="AutoUpdateOption">
+      <Setting name="AutoUpdateEnabled" value="0"/>
+    </Section>
+    <Section name="DeploymentOptions">
+      <Setting name="DummyPolicy" value="0"/>
+      <Setting name="UpdateAfterDeployment" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="TaskType" value="Deployment"/>
+    </Section>
+    <Section name="Install">
+      <Setting name="Install_1" value="EEDK_PKG1001"/>
+      <Setting name="NumInstalls" value="1"/>
+    </Section>
+    <Section name="Install\EEDK_PKG1001">
+      <Setting name="BuildVersion" value="1.0.0.0"/>
+      <Setting name="InstallCommandLine" value=""/>
+      <Setting name="Language" value="0000"/>
+      <Setting name="PackagePathType" value="Current"/>
+    </Section>
+    <Section name="SchedulerExtraData">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Settings">
+      <Setting name="RunAtEnforcementEnabled" value="0"/>
+    </Section>
+    <Section name="Uninstall">
+      <Setting name="NumUninstalls" value="0"/>
+    </Section>
+    <Section name="UpdateOptions">
+      <Setting name="bAllowPostpone" value="0"/>
+      <Setting name="nMaxPostpones" value="1"/>
+      <Setting name="nPostponeTimeout" value="20"/>
+      <Setting name="szPostponeText" value=""/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="24" name="VARREDURA ENS - EMERGENCIAL 15-06" serverid="DFEPOSSD304" productid="ENDP_AM_1000" typeid="EAM_Scan_Task" description="" taskobjectflag="0">
+    <Section name="Account">
+      <Setting name="szDomainName" value="CORPCAIXA"/>
+      <Setting name="szPassword" value=""/>
+      <Setting name="szUserName" value="s756230"/>
+    </Section>
+    <Section name="Exclusions">
+      <Setting name="bOverwriteExclusions" value="0"/>
+      <Setting name="dwExclusionCount" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="bAlwaysExit" value="1"/>
+      <Setting name="bAutoExit" value="1"/>
+      <Setting name="bAutoStart" value="1"/>
+      <Setting name="bEnableSplash" value="0"/>
+      <Setting name="szTaskName" value="New Scan Task"/>
+      <Setting name="TaskType" value="SCAN"/>
+      <Setting name="UIType" value="2"/>
+      <Setting name="wTaskAttrib" value="3"/>
+    </Section>
+    <Section name="GTI">
+      <Setting name="GTISensitivityLevel" value="3"/>
+    </Section>
+    <Section name="Performance">
+      <Setting name="bDeferScanInFullScreen" value="0"/>
+      <Setting name="bDeferScanOnBattery" value="1"/>
+      <Setting name="bEnforceMaxODSThreads" value="1"/>
+      <Setting name="bEnforceMaxScanTime" value="1"/>
+      <Setting name="bInteractiveUserIsIdle" value="1"/>
+      <Setting name="bPermitUserDefer" value="0"/>
+      <Setting name="bSystemUtilization" value="1"/>
+      <Setting name="bUseCache" value="1"/>
+      <Setting name="CPUPercentage" value="80"/>
+      <Setting name="SystemUtilization" value="3"/>
+      <Setting name="szDeferMessage" value="McAfee Endpoint Security is about to scan your system."/>
+      <Setting name="uDeferTime" value="23"/>
+      <Setting name="uMessageDuration" value="45"/>
+      <Setting name="uScannerMaxODSThreads" value="5"/>
+      <Setting name="uScannerThreadTimeOut" value="45"/>
+    </Section>
+    <Section name="Remediation">
+      <Setting name="uAction" value="1"/>
+      <Setting name="uAction_Program" value="1"/>
+      <Setting name="uSecAction" value="2"/>
+      <Setting name="uSecAction_Program" value="2"/>
+    </Section>
+    <Section name="ScanOptions">
+      <Setting name="bDetectUnwantedPrograms" value="1"/>
+      <Setting name="bScanArchives" value="1"/>
+      <Setting name="bScanBootSectors" value="1"/>
+      <Setting name="bScanFilesMigratedToStorage" value="0"/>
+      <Setting name="bScanMime" value="0"/>
+      <Setting name="bScanSubDirs" value="1"/>
+      <Setting name="bUnknownMacroHeuristics" value="1"/>
+      <Setting name="bUnknownProgramHeuristics" value="1"/>
+      <Setting name="dwScanItemCount" value="4"/>
+      <Setting name="ExtensionMode" value="1"/>
+      <Setting name="szProgExts" value=""/>
+      <Setting name="szScanItem0" value="SpecialScanForRootkits"/>
+      <Setting name="szScanItem1" value="SpecialMemory"/>
+      <Setting name="szScanItem2" value="LocalDrives"/>
+      <Setting name="szScanItem3" value="SpecialRegistry"/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskObjectInstance id="25" name="VARREDURA EMERGENIAL 07_11" serverid="DFEPOSSD304" productid="ENDP_AM_1000" typeid="EAM_Scan_Task" description="" taskobjectflag="0">
+    <Section name="Account">
+      <Setting name="szDomainName" value="CORPCAIXA"/>
+      <Setting name="szPassword" value="EPOAES128:2920f5f43d4fd9a7685eb65ce0c5a37986a035e8641d8d2db56c5c4f84377be6"/>
+      <Setting name="szUserName" value="s756230"/>
+    </Section>
+    <Section name="Exclusions">
+      <Setting name="bOverwriteExclusions" value="0"/>
+      <Setting name="dwExclusionCount" value="0"/>
+    </Section>
+    <Section name="General">
+      <Setting name="bAlwaysExit" value="1"/>
+      <Setting name="bAutoExit" value="1"/>
+      <Setting name="bAutoStart" value="1"/>
+      <Setting name="bEnableSplash" value="0"/>
+      <Setting name="szTaskName" value="New Scan Task"/>
+      <Setting name="TaskType" value="SCAN"/>
+      <Setting name="UIType" value="2"/>
+      <Setting name="wTaskAttrib" value="3"/>
+    </Section>
+    <Section name="GTI">
+      <Setting name="GTISensitivityLevel" value="4"/>
+    </Section>
+    <Section name="Performance">
+      <Setting name="bDeferScanInFullScreen" value="0"/>
+      <Setting name="bDeferScanOnBattery" value="0"/>
+      <Setting name="bEnforceMaxODSThreads" value="1"/>
+      <Setting name="bEnforceMaxScanTime" value="1"/>
+      <Setting name="bInteractiveUserIsIdle" value="0"/>
+      <Setting name="bPermitUserDefer" value="0"/>
+      <Setting name="bSystemUtilization" value="1"/>
+      <Setting name="bUseCache" value="1"/>
+      <Setting name="CPUPercentage" value="80"/>
+      <Setting name="SystemUtilization" value="3"/>
+      <Setting name="szDeferMessage" value="McAfee Endpoint Security is about to scan your system."/>
+      <Setting name="uDeferTime" value="23"/>
+      <Setting name="uMessageDuration" value="45"/>
+      <Setting name="uScannerMaxODSThreads" value="5"/>
+      <Setting name="uScannerThreadTimeOut" value="45"/>
+    </Section>
+    <Section name="Remediation">
+      <Setting name="uAction" value="1"/>
+      <Setting name="uAction_Program" value="1"/>
+      <Setting name="uSecAction" value="2"/>
+      <Setting name="uSecAction_Program" value="2"/>
+    </Section>
+    <Section name="ScanOptions">
+      <Setting name="bDetectUnwantedPrograms" value="1"/>
+      <Setting name="bScanArchives" value="1"/>
+      <Setting name="bScanBootSectors" value="1"/>
+      <Setting name="bScanFilesMigratedToStorage" value="1"/>
+      <Setting name="bScanMime" value="1"/>
+      <Setting name="bScanSubDirs" value="1"/>
+      <Setting name="bUnknownMacroHeuristics" value="1"/>
+      <Setting name="bUnknownProgramHeuristics" value="1"/>
+      <Setting name="dwScanItemCount" value="5"/>
+      <Setting name="ExtensionMode" value="1"/>
+      <Setting name="szProgExts" value=""/>
+      <Setting name="szScanItem0" value="SpecialScanForRootkits"/>
+      <Setting name="szScanItem1" value="SpecialMemory"/>
+      <Setting name="szScanItem2" value="LocalDrives"/>
+      <Setting name="szScanItem3" value="TempDir"/>
+      <Setting name="szScanItem4" value="SpecialCritical"/>
+    </Section>
+  </EPOTaskObjectInstance>
+  <EPOTaskAssignment id="26">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Update" name="Atualização Completa"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>2</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="1"/>
+        <Setting name="RandomizationWndMins" value="30"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="2"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20131119040000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130190000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="20"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="27">
+    <Node nodeType="3" nodeTextPath2="\DATACENTER_VM\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Update" name="Atualização Completa"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>2</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="1"/>
+        <Setting name="RandomizationWndMins" value="30"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="2"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20131119120000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130070000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="0"/>
+        <Setting name="StopAfterMinutes" value="10"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="28">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Update" name="Atualização Simples"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>4</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="1"/>
+        <Setting name="RandomizationWndMins" value="30"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20131119070000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130165900"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="10"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="29">
+    <Node nodeType="3" nodeTextPath2="\.Instal\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Update" name="Atualização Simples"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>4</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="1"/>
+        <Setting name="RandomizationWndMins" value="30"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20201028000000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="7"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="10"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="30">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Update" name="Atualização Startup"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>15</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="AtStartupDelayMinutes" value="7"/>
+        <Setting name="EnableRunTaskOnceADay" value="0"/>
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20191223000000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="4"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="10"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="31">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Wakeup" name="Wakeup Agent"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>16</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="1"/>
+        <Setting name="RandomizationWndMins" value="30"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20131217070000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130220000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="32">
+    <Node nodeType="3" nodeTextPath2="\ServidoresInfra\.Install_AV\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="InstalaçãoAV 8.8 P4"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>18</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20150223000000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="7"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="0"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="33">
+    <Node nodeType="3" nodeTextPath2="\ServidoresInfra\LevantamentoAuditoria\W2000\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="InstalaçãoAV 8.8 P4"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>45</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20190125120000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="0"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="0"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="34">
+    <Node nodeType="3" nodeTextPath2="\PREDIOS\DF7436SR073 (MATRIZ II)\GESET\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="Instalação EEFF"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>17</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="2"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20150106060000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130090000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Workstation" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="35">
+    <Node nodeType="3" nodeTextPath2="\DATACENTER_VM\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="Remove DLP"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>19</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20150525020000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130230000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="36">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="VIRUSCAN8800" taskType="VSC700_Scan_Task" name="Varredura Completa - Servidor 8.8"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>32</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="MaskDaysOfWeek" value="64"/>
+        <Setting name="RandomizationEnabled" value="1"/>
+        <Setting name="RandomizationWndMins" value="30"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="1"/>
+        <Setting name="RepeatWeeks" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="10"/>
+        <Setting name="StartDateTime" value="20130220120000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="1"/>
+        <Setting name="UntilDuration" value="1440"/>
+        <Setting name="UntilOption" value="1"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Server" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="37">
+    <Node nodeType="3" nodeTextPath2="\PREDIOS\DF7436SR073 (MATRIZ II)\GESET\"/>
+    <Task productCode="VIRUSCAN8800" taskType="VSC700_Scan_Task" name="Varredura Completa - Servidor 8.8"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>32</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="MaskDaysOfWeek" value="64"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RepeatWeeks" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="10"/>
+        <Setting name="StartDateTime" value="20130220120000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="1"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="0"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Server" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="38">
+    <Node nodeType="3" nodeTextPath2="\DATACENTER_VM\"/>
+    <Task productCode="VIRUSCAN8800" taskType="VSC700_Scan_Task" name="Varredura Completa - Servidor 8.8"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>32</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="MaskDaysOfWeek" value="64"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RepeatWeeks" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="10"/>
+        <Setting name="StartDateTime" value="20130220120000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="1"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="0"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Server" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="39">
+    <Node nodeType="3" nodeTextPath2="\ServidoresInfra\"/>
+    <Task productCode="VIRUSCAN8800" taskType="VSC700_Scan_Task" name="Varredura Completa - Servidor 8.8"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>32</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="MaskDaysOfWeek" value="64"/>
+        <Setting name="RandomizationEnabled" value="1"/>
+        <Setting name="RandomizationWndMins" value="30"/>
+        <Setting name="RepeatWeeks" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="10"/>
+        <Setting name="StartDateTime" value="20130220120000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="1"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="0"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Server" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="40">
+    <Node nodeType="3" nodeTextPath2="\PREDIOS\DF7436SR073 (MATRIZ II)\"/>
+    <Task productCode="VIRUSCAN8800" taskType="VSC700_Scan_Task" name="Varredura Completa - Cliente 8.8 (Emergencial)"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>27</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20151031010000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="3"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="41">
+    <Node nodeType="3" nodeTextPath2="\DF\DF0009\"/>
+    <Task productCode="VIRUSCAN8800" taskType="VSC700_Scan_Task" name="Varredura Completa - Cliente 8.8 (Emergencial)"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>31</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20151217193000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="0"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="42">
+    <Node nodeType="3" nodeTextPath2="\PREDIOS\DF7436SR073 (MATRIZ II)\"/>
+    <Task productCode="VIRUSCAN8800" taskType="VSC700_Scan_Task" name="Varredura Completa - Servidor 8.8 (Emergencial)"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>26</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20151031010000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="3"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="43">
+    <Node nodeType="3" nodeTextPath2="\PREDIOS\DF7436SR073 (MATRIZ II)\NOTEBOOKS\"/>
+    <Task productCode="VIRUSCAN8800" taskType="VSC700_Scan_Task" name="Varredura Completa - Cliente 8.8 (Emergencial) 2"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>28</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20151027010000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="3"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="44">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="ENDP_AM_1000" taskType="EAM_PolicyBased_Scans" name="On-Demand Scan - Full Scan"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>58</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="DayOfWeek" value="4"/>
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="MaskMonthsOfYear" value="4095"/>
+        <Setting name="MonthOption" value="1"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20200316010000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="2"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130090000"/>
+        <Setting name="WeekNumOfMonth" value="3"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Workstation" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="45">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="ENDP_AM_1000" taskType="EAM_PolicyBased_Scans" name="On-Demand Scan - Quick Scan"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>59</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RunIfMissed" value="1"/>
+        <Setting name="RunIfMissedDelayMins" value="59"/>
+        <Setting name="StartDateTime" value="20200316130000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="0"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Workstation" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="46">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="INSTALL ENS - 10.7"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>35</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="30"/>
+        <Setting name="RepeatOption" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20171207010300"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130230000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Workstation" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="47">
+    <Node nodeType="3" nodeTextPath2="\PREDIOS\DF7436SR090 (512 Norte)\DF7390_W8\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="INSTALL ENS - 10.7"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>35</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="15"/>
+        <Setting name="RepeatOption" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20171207010300"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130230000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="0"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Workstation" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="48">
+    <Node nodeType="3" nodeTextPath2="\RemoveTudo\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="INSTALL ENS - 10.7"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>35</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20171207010300"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130230000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="0"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Workstation" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="49">
+    <Node nodeType="3" nodeTextPath2="\ServidoresInfra\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="INSTALL ENS - 10.7"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>35</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="30"/>
+        <Setting name="RepeatOption" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20171207010300"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130230000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="50">
+    <Node nodeType="3" nodeTextPath2="\FEIRAO\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="INSTALL ENS - 10.7"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>35</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20190313000000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="7"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="10"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Workstation" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="51">
+    <Node nodeType="3" nodeTextPath2="\ServidoresInfra\.Atualiza\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="INSTALL ENS - 10.7"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>35</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20190614000000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="7"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="52">
+    <Node nodeType="3" nodeTextPath2="\Vazias 403\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="INSTALL ENS - 10.7"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>57</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="30"/>
+        <Setting name="RepeatOption" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20200206091300"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130140000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="53">
+    <Node nodeType="3" nodeTextPath2="\.Instal\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="INSTALL ENS - 10.7"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>35</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20200427000000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="7"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Workstation" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="54">
+    <Node nodeType="3" nodeTextPath2="\PREDIOS\DF7436SR090 (512 Norte)\DF7390_W8\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="REMOVE ENS"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>38</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20180629050000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130200000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="1"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="55">
+    <Node nodeType="3" nodeTextPath2="\RemoveTudo\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="REMOVE ENS"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>55</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20190722000000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="0"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="56">
+    <Node nodeType="3" nodeTextPath2="\PREDIOS\DF7436SR090 (512 Norte)\DF7390_W8\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="InstalaçãoAV 8.8 W8"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>39</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20180629050000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130200000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="57">
+    <Node nodeType="3" nodeTextPath2="\FEIRAO\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="RemoveVSE"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>62</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20200813000000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="7"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="58">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="Install_DLP_11_4"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>43</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="1"/>
+        <Setting name="RandomizationWndMins" value="10"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20181127040000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130220000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="15"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Workstation" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="59">
+    <Node nodeType="3" nodeTextPath2="\PREDIOS\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="Install_DLP_11_4"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>43</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="1"/>
+        <Setting name="RandomizationWndMins" value="10"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20181127200000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130000000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="15"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Windows 10 1709" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="60">
+    <Node nodeType="3" nodeTextPath2="\RemoveTudo\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="Install_DLP_11_4"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>43</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="1"/>
+        <Setting name="RandomizationWndMins" value="10"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20181127040000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130220000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="0"/>
+        <Setting name="StopAfterMinutes" value="15"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Workstation" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="61">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="ENDP_AM_1000" taskType="EAM_Scan_Task" name="Varredura Completa - Servidor ENS"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>48</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="MaskDaysOfWeek" value="64"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RepeatWeeks" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20190204120000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="1"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Server" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="62">
+    <Node nodeType="3" nodeTextPath2="\.Instal\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="Instal_ENS_Imediato"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>51</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20190404000000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="7"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="15"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="63">
+    <Node nodeType="3" nodeTextPath2="\FEIRAO\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="Instal_ENS_Imediato"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>52</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20190408000000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="7"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="15"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="64">
+    <Node nodeType="3" nodeTextPath2="\PREDIOS\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="Install_DLP_11.2_imediato"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>53</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="1"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20190416000000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="7"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="15"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="W10" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="65">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="INSTALL AGENT 5.6.6"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>56</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20190918040000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130220000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="66">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="EPOAGENTMETA" taskType="Deployment" name="INSTALL KB CERTIFICADO"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>60</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RepeatDays" value="1"/>
+        <Setting name="RepeatInterval" value="1"/>
+        <Setting name="RepeatOption" value="0"/>
+        <Setting name="RunIfMissed" value="0"/>
+        <Setting name="RunIfMissedDelayMins" value="0"/>
+        <Setting name="StartDateTime" value="20200608010000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="1"/>
+        <Setting name="Type" value="0"/>
+        <Setting name="UntilOption" value="0"/>
+        <Setting name="UntilTime" value="00021130230000"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="1"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="67">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="ENDP_AM_1000" taskType="EAM_Scan_Task" name="VARREDURA ENS - EMERGENCIAL 15-06"/>
+    <TaskAssignmentFlag>8</TaskAssignmentFlag>
+    <TaskSlot>61</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RunIfMissed" value="1"/>
+        <Setting name="RunIfMissedDelayMins" value="10"/>
+        <Setting name="StartDateTime" value="20200615210000"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="3"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="0"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags>
+      <Tag name="Workstation" family="EPO" include="true"/>
+    </Tags>
+  </EPOTaskAssignment>
+  <EPOTaskAssignment id="68">
+    <Node nodeType="4" nodeTextPath2="\"/>
+    <Task productCode="ENDP_AM_1000" taskType="EAM_Scan_Task" name="VARREDURA EMERGENIAL 07_11"/>
+    <TaskAssignmentFlag>0</TaskAssignmentFlag>
+    <TaskSlot>63</TaskSlot>
+    <TaskSchedule>
+      <Section name="Schedule">
+        <Setting name="GMTTime" value="0"/>
+        <Setting name="RandomizationEnabled" value="0"/>
+        <Setting name="RandomizationWndMins" value="0"/>
+        <Setting name="RunIfMissed" value="1"/>
+        <Setting name="RunIfMissedDelayMins" value="59"/>
+        <Setting name="StartDateTime" value="20201107212500"/>
+        <Setting name="StopDateValid" value="0"/>
+        <Setting name="TaskRepeatable" value="0"/>
+        <Setting name="Type" value="3"/>
+      </Section>
+      <Section name="Settings">
+        <Setting name="Enabled" value="0"/>
+        <Setting name="StopAfterMinutes" value="0"/>
+      </Section>
+    </TaskSchedule>
+    <Tags/>
+  </EPOTaskAssignment>
+</epo:EPOTaskAssignments>
